@@ -6,5 +6,8 @@ def start_spiders():
     '''
     cmdline.execute(['scrapy','crawl','lyw'])
 
+def test():
+    print('test')
+
 if __name__ == '__main__':
     start_spiders()
